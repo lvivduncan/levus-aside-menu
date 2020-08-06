@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> levus-aside-menu</title>
+    <link rel="stylesheet" href="css/levus-aside-menu.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font: 1em sans-serif;
+        }
+        
+        #example {
+            width: 900px;
+            margin: 50px auto 0;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+        }
+        
+        #example main p {
+            padding: 0 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="example">
+        <aside>
+            <ul class="levus-aside-menu">
+                <li><a href="#">1 list item</a></li>
+                <li><a href="#">2 list item</a></li>
+                <li><a href="#">3 list item</a></li>
+                <!-- <li class="parent"><a href="">4 list item</a> -->
+                <li><a href="#">4 list item</a>
+                    <!-- <span class="close"></span> -->
+                    <ul>
+                        <li><a href="#">41 list item</a></li>
+                        <li><a href="#">42 list item</a></li>
+                        <li><a href="#">43 list item</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">5 list item</a></li>
+            </ul>
+        </aside>
+        <main>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam aliquam esse magnam assumenda debitis blanditiis odit amet asperiores excepturi consequuntur dolore adipisci quo, ipsam aliquid sint perferendis optio iste! Consequatur
+                asperiores eveniet hic inventore expedita id quisquam, neque perspiciatis deserunt quidem necessitatibus tenetur cum ut atque exercitationem autem vitae nisi. Fugiat molestias vero placeat unde nam et expedita nesciunt cumque iste, fuga
+                alias assumenda nisi omnis accusamus enim tempora odio, possimus libero voluptatem delectus reprehenderit! Necessitatibus tempore dignissimos incidunt esse tempora, omnis voluptates sint ipsum ratione perspiciatis. Natus sunt consequuntur
+                ducimus fuga hic aliquam dolores ullam omnis autem voluptates aut, sint quisquam numquam cupiditate quibusdam, iste recusandae veritatis reprehenderit quos asperiores, modi sed vitae. Quas sit soluta, beatae excepturi asperiores voluptates
+                et illum optio debitis deserunt error neque exercitationem autem voluptate laborum est eligendi laudantium? Maxime adipisci saepe quia itaque voluptate nulla expedita perspiciatis praesentium, nisi, ex accusamus corporis atque rem voluptatum
+                alias iste optio provident sit animi numquam autem magni nihil repudiandae non. Aspernatur iure odit tempora ad, dignissimos fugiat amet? Id aliquid asperiores consequatur architecto ratione iusto possimus vero delectus, dicta dolorum
+                enim neque aspernatur blanditiis, veritatis optio rerum quisquam debitis facere? Dolorum alias ex vero nisi!</p>
+        </main>
+    </div>
+
+    <script src="js/levus-aside-menu.js"></script>
+</body>
+
+</html>
