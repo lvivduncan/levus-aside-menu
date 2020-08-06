@@ -74,6 +74,6 @@
     transform: translate(-50%, -50%);
 }
 
-.levus-aside-menu .parent span.open::before {
+.levus-aside-menu .parent.open span::before {
     content: '-';
 }
