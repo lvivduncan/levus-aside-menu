@@ -16,10 +16,8 @@
         if (e.target.tagName === 'SPAN') {
             // close other .parent ul
             lis.forEach(li => li.children.length > 1 && (li.className = 'parent'));
-            // setTimeout(() => {
             // change class to span
             e.target.parentNode.classList.toggle('open');
-            // }, 500);
         }
     });
 }
