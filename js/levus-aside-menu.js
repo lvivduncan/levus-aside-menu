@@ -22,7 +22,7 @@
             // check
             const is_open = this.classList.contains('open');
             // toggle other 
-            spans.forEach(span => span.classList.toggle('class'));
+            spans.forEach(span => span.classList.remove('open'));
             // change class
             if (is_open) {
                 this.classList.remove('open');
