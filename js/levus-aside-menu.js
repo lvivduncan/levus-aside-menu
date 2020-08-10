@@ -1,6 +1,5 @@
 // 10-08-2020
 {
-    // all
     const menu = document.querySelector('.levus-aside-menu');
     // li's
     const lis = menu.querySelectorAll('li');
@@ -25,7 +24,11 @@
             // toggle other 
             spans.forEach(span => span.classList.toggle('class'));
             // change class
-            is_open ? this.classList.remove('open') : this.classList.add('open');
+            if (is_open) {
+                this.classList.remove('open');
+            } else {
+                this.classList.add('open');
+            }
         });
     })
 
