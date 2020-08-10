@@ -40,16 +40,6 @@
     transition: max-height .1s, transform .1s;
 }
 
-
-/* 
-.levus-aside-menu .parent.open>ul {
-    max-height: 100%;
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-    -webkit-transition: max-height .2s, transform .2s;
-    transition: max-height .2s, transform .2s;
-} */
-
 .levus-aside-menu .parent span.open~ul {
     max-height: 100%;
     -webkit-transform: rotateX(0);
