@@ -40,7 +40,17 @@
     transition: max-height .1s, transform .1s;
 }
 
+
+/* 
 .levus-aside-menu .parent.open>ul {
+    max-height: 100%;
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transition: max-height .2s, transform .2s;
+    transition: max-height .2s, transform .2s;
+} */
+
+.levus-aside-menu .parent span.open~ul {
     max-height: 100%;
     -webkit-transform: rotateX(0);
     transform: rotateX(0);
@@ -64,6 +74,7 @@
     height: 38px;
     background: aquamarine;
     cursor: pointer;
+    z-index: 1;
 }
 
 .levus-aside-menu .parent span::before {
@@ -76,6 +87,6 @@
     transform: translate(-50%, -50%);
 }
 
-.levus-aside-menu .parent.open span::before {
+.levus-aside-menu .parent span.open::before {
     content: '-';
 }
