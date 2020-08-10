@@ -14,77 +14,42 @@
             font: 1em sans-serif;
         }
         
-        #example {
-            width: 900px;
-            margin: 50px auto 0;
-            display: grid;
-            grid-template-columns: 280px 1fr;
-        }
-        
-        @media (max-width: 920px) {
-            #example {
-                width: 99%;
-            }
-        }
-        
-        @media (max-width: 776px) {
-            #example {
-                grid-template-columns: 1fr;
-            }
-        }
-        
-        #example main p {
-            padding: 0 10px;
-            line-height: 1.6;
-        }
-        
-        @media (max-width: 776px) {
-            #example main p {
-                padding: 30px 0 0;
-            }
+        .levus-aside-menu {
+            width: 310px;
         }
     </style>
 </head>
 
 <body>
-
-    <div id="example">
-        <aside>
-            <ul class="levus-aside-menu">
-                <li><a href="#">1 list item</a>
-                    <ul>
-                        <li><a href="">11 list item</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">2 list item</a></li>
-                <li><a href="#">3 list item</a></li>
-                <li><a href="#">4 list item</a>
-                    <ul>
-                        <li><a href="#">41 list item</a></li>
-                        <li><a href="#">42 list item</a></li>
-                        <li><a href="#">43 list item</a></li>
-                        <li><a href="#">44 list item</a></li>
-                        <li><a href="#">45 list item</a></li>
-                        <li><a href="#">46 list item</a></li>
-                        <li><a href="#">47 list item</a></li>
-                        <li><a href="#">48 list item</a></li>
-                        <li><a href="#">49 list item</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">5 list item</a>
-                    <ul>
-                        <li><a href="">51 list item</a></li>
-                        <li><a href="">52 list item</a></li>
-                        <li><a href="">53 list item</a></li>
-                    </ul>
-                </li>
+    <ul class="levus-aside-menu">
+        <li><a href="#">1 list item</a>
+            <ul>
+                <li><a href="">11 list item</a></li>
             </ul>
-        </aside>
-        <main>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam aliquam esse magnam assumenda debitis blanditiis odit amet asperiores excepturi consequuntur dolore adipisci quo, ipsam aliquid sint perferendis optio iste! </p>
-            <p> Consequatur asperiores eveniet hic inventore expedita id quisquam, neque perspiciatis deserunt quidem necessitatibus tenetur cum ut atque exercitationem autem vitae nisi. </p>
-        </main>
-    </div>
+        </li>
+        <li><a href="#">2 list item</a></li>
+        <li><a href="#">3 list item</a></li>
+        <li><a href="#">4 list item</a>
+            <ul>
+                <li><a href="#">41 list item</a></li>
+                <li><a href="#">42 list item</a></li>
+                <li><a href="#">43 list item</a></li>
+                <li><a href="#">44 list item</a></li>
+                <li><a href="#">45 list item</a></li>
+                <li><a href="#">46 list item</a></li>
+                <li><a href="#">47 list item</a></li>
+                <li><a href="#">48 list item</a></li>
+                <li><a href="#">49 list item</a></li>
+            </ul>
+        </li>
+        <li><a href="#">5 list item</a>
+            <ul>
+                <li><a href="">51 list item</a></li>
+                <li><a href="">52 list item</a></li>
+                <li><a href="">53 list item</a></li>
+            </ul>
+        </li>
+    </ul>
 
     <script src="js/levus-aside-menu.js"></script>
 </body>
